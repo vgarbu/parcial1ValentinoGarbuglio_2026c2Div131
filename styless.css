@@ -1,0 +1,114 @@
+:root{
+    --color-primario:darkslateblue;
+    --gris-oscuro:#dddddd;
+    --gris-claro:#fbfbfb;
+    --color-secundario:#f0eefb;
+}
+
+body{
+    font-family:"Open Sans", Arial, sans-serif;
+    margin:0;
+    padding:0 20px;
+}
+
+header, footer{
+    text-align:center;
+}
+
+main{
+    padding: 10px 0;
+}
+
+h1{
+    margin:10px 0;
+}
+
+hr{
+    border:none;
+    border-top: 1px solid var(--gris-oscuro);
+    margin: 0 0 20px;
+}
+
+.radios{
+    display:flex;
+    gap:15px;
+}
+
+.radios label{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+
+.controles{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex
+}
+
+.filtros{
+    display:flex;
+    gap:15px;
+    flex-direction:column;
+}
+
+.botones{
+    display:flex;
+    gap:7px
+}
+
+.btn{
+    color: var(--color-primario);
+    border: 1px solid var(--color-primario);
+    padding: 12px 12px;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+#buscador{
+    width: 40%;
+    padding: 10px;
+    font-size: 1rem;
+    border:1px solid var(--gris-oscuro);
+}
+
+input[type="radio"], input[type="checkbox"]{
+    accent-color: var(--color-primario);
+}
+
+#users-container {
+    margin-top: 30px;
+}
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+ 
+th,
+td {
+    border: 1px solid var(--gris-oscuro);
+    padding: 12px 14px;
+    text-align: left;
+}
+ 
+tbody tr:nth-child(odd) {
+    background-color: var(--gris-claro);
+}
+
+.username{
+    color:var(--color-primario);
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--gris-oscuro);
+    vertical-align: middle;
+}
+ 
+.sin-resultados {
+    text-align: center;
+    padding: 20px;
+}
